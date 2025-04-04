@@ -1,0 +1,160 @@
+{
+  "company": {
+    "name": "Enbridge Inc.",
+    "location": {
+      "address": "200, 425 - 1st Street S.W",
+      "city": "Calgary",
+      "state": "AB",
+      "zip": "94043"
+    },
+    "departments": [
+      {
+        "name": "Research and Development",
+        "employees": [
+          {
+            "id": 1,
+            "name": "John Doe",
+            "position": "Lead Supervisor",
+            "projects": [
+              {
+                "name": "Meter Management",
+                "status": "Ongoing",
+                "budget": 1000000,
+                "milestones": [
+                  {
+                    "name": "Phase 1",
+                    "deadline": "2025-06-01",
+                    "completed": true
+                  },
+                  {
+                    "name": "Phase 2",
+                    "deadline": "2025-12-01",
+                    "completed": false
+                  }
+                ]
+              },
+              {
+                "name": "Project Beta",
+                "status": "Completed",
+                "budget": 500000,
+                "milestones": [
+                  {
+                    "name": "Initial Research",
+                    "deadline": "2024-01-01",
+                    "completed": true
+                  },
+                  {
+                    "name": "Final Report",
+                    "deadline": "2024-12-01",
+                    "completed": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Bob Smith",
+            "position": "Research Analyst",
+            "projects": [
+              {
+                "name": "Project Pipeline",
+                "status": "Ongoing",
+                "budget": 750000,
+                "milestones": [
+                  {
+                    "name": "Literature Review",
+                    "deadline": "2025-03-01",
+                    "completed": true
+                  },
+                  {
+                    "name": "Experimentation",
+                    "deadline": "2025-09-01",
+                    "completed": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Marketing",
+        "employees": [
+          {
+            "id": 3,
+            "name": "Jane Lynch",
+            "position": "Marketing Manager",
+            "campaigns": [
+              {
+                "name": "Campaign Delta",
+                "status": "Ongoing",
+                "budget": 200000,
+                "channels": ["Social Media", "Email", "TV"]
+              },
+              {
+                "name": "Campaign Epsilon",
+                "status": "Completed",
+                "budget": 150000,
+                "channels": ["Print", "Radio"]
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "David Brown",
+            "position": "Marketing Specialist",
+            "campaigns": [
+              {
+                "name": "Campaign Zeta",
+                "status": "Ongoing",
+                "budget": 100000,
+                "channels": ["Social Media", "Influencers"]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "products": [
+      {
+        "id": "P001",
+        "name": "Innovative Gadget",
+        "category": "Electronics",
+        "price": 299.99,
+        "stock": 150,
+        "reviews": [
+          {
+            "user": "user123",
+            "rating": 5,
+            "comment": "Excellent product!"
+          },
+          {
+            "user": "user456",
+            "rating": 4,
+            "comment": "Very good, but a bit expensive."
+          }
+        ]
+      },
+      {
+        "id": "P002",
+        "name": "Smart Widget",
+        "category": "Home Automation",
+        "price": 199.99,
+        "stock": 200,
+        "reviews": [
+          {
+            "user": "user789",
+            "rating": 4,
+            "comment": "Works well, easy to set up."
+          },
+          {
+            "user": "user101",
+            "rating": 3,
+            "comment": "Average performance."
+          }
+        ]
+      }
+    ]
+  }
+}
